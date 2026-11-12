@@ -6,13 +6,13 @@
 
 # Arizona Meshtastic Community
 
-### Arizona's people-powered, off-grid communications network
+### Arizona's community-built Meshtastic network
 
-Small radios. Long distances. No towers, subscriptions, cell service, or license required.
+Run a node, learn about radio, build useful tools, and help grow Arizona's off-grid mesh.
 
 [![Website](https://img.shields.io/badge/Explore-azmsh.net-C86726?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://azmsh.net)
 [![Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/HrKtyuFEQk)
-[![Live network](https://img.shields.io/badge/See_the-Live_Network-71351C?style=for-the-badge&logo=maplibre&logoColor=white)](https://view.azmsh.net)
+[![Sonoran](https://img.shields.io/badge/Explore-Sonoran-71351C?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArizonaMeshtasticCommunity/sonoran)
 
 [Get connected](https://azmsh.net/docs/how-to-connect.html) · [Recommended hardware](https://azmsh.net/docs/recommended-hardware.html) · [Recommended settings](https://azmsh.net/docs/recommended-settings.html) · [Community channels](https://azmsh.net/docs/suggested_channels.html)
 
@@ -20,13 +20,15 @@ Small radios. Long distances. No towers, subscriptions, cell service, or license
 
 ---
 
-## 📡 A mesh built by Arizonans
+## 📡 Hi from the Arizona mesh
 
-Meshtastic turns small, affordable LoRa radios into a long-range mesh network for text messages and location sharing. Each radio can relay traffic for the next, extending the network across neighborhoods, cities, mountains, and desert—all without depending on cellular infrastructure.
+We're a group of people across Arizona who use and build around Meshtastic. Some of us are radio veterans, some write code, and some just bought their first node. Everyone is welcome.
 
-AZMSH brings together curious beginners, radio enthusiasts, builders, developers, and node operators across Arizona. We share what works in our terrain, help new members get on the air, build tools for understanding the network, and grow the mesh one well-placed node at a time.
+Meshtastic uses small LoRa radios to send text messages and share locations. Nearby radios pass messages along, so the network can cover far more ground than one radio could on its own. It works without cell service, subscriptions, or monthly fees.
 
-> **New to Meshtastic?** Start with the [AZMSH connection guide](https://azmsh.net/docs/how-to-connect.html). It walks through choosing a radio, installing the app, joining Discord, and configuring your node for the Arizona mesh.
+Here at AZMSH, we compare notes on what works in Arizona, help people set up their radios, and build tools for seeing what is happening on the mesh.
+
+> **Just getting started?** Our [connection guide](https://azmsh.net/docs/how-to-connect.html) covers picking a radio, installing the app, joining Discord, and setting up your node for the Arizona mesh.
 
 ## 🛰️ What we're building
 
@@ -36,7 +38,7 @@ AZMSH brings together curious beginners, radio enthusiasts, builders, developers
 
 ### 🗺️ [Sonoran](https://github.com/ArizonaMeshtasticCommunity/sonoran)
 
-The AZMSH network dashboard: live nodes, mesh links, traffic, telemetry, chat, coverage predictions, and signal planning.
+Our network dashboard for nodes, mesh links, traffic, telemetry, chat, coverage predictions, and signal planning.
 
 **Python · TimescaleDB · Leaflet · ECharts**
 
@@ -45,7 +47,7 @@ The AZMSH network dashboard: live nodes, mesh links, traffic, telemetry, chat, c
 
 ### 📻 [Sonoran Contributor](https://github.com/ArizonaMeshtasticCommunity/sonoran-contributor)
 
-Lets community-run radios and receivers contribute local RF observations and mesh measurements to Sonoran.
+Lets members contribute local radio observations and mesh measurements to Sonoran using their own receivers.
 
 **Python · MQTT · Meshtastic · SDR**
 
@@ -56,7 +58,7 @@ Lets community-run radios and receivers contribute local RF observations and mes
 
 ### 🎓 [Educational Materials](https://github.com/ArizonaMeshtasticCommunity/edu-materials)
 
-Presentations, brochures, and practical guides for meetups, classes, and anyone setting up their first radio.
+Presentations and practical guides for meetups, classes, and people setting up their first radio.
 
 **Guides · Presentations · Community training**
 
@@ -65,7 +67,7 @@ Presentations, brochures, and practical guides for meetups, classes, and anyone 
 
 ### 🌵 [AZMSH Website](https://github.com/ArizonaMeshtasticCommunity/azmsh-site)
 
-The source for [azmsh.net](https://azmsh.net): Arizona-specific onboarding, hardware advice, settings, channels, and node-hosting guidance.
+The source for [azmsh.net](https://azmsh.net), including our setup guides, hardware notes, settings, channels, and node-hosting advice.
 
 **MkDocs · Material · Community docs**
 
@@ -76,7 +78,7 @@ The source for [azmsh.net](https://azmsh.net): Arizona-specific onboarding, hard
 
 ### 🤖 [Meshtastic Cogs](https://github.com/ArizonaMeshtasticCommunity/Meshtastic-Cogs)
 
-Discord tools for bridging mesh traffic, discovering nodes, viewing telemetry, and supporting community operations.
+Discord tools that bridge mesh traffic, find nodes, show telemetry, and help run the community server.
 
 **Python · Red-DiscordBot · MQTT**
 
@@ -85,7 +87,7 @@ Discord tools for bridging mesh traffic, discovering nodes, viewing telemetry, a
 
 ### 🧰 [Community Scripts](https://github.com/ArizonaMeshtasticCommunity/community-scripts)
 
-Shared utilities and automation created by AZMSH members for operating and exploring the network.
+Useful scripts and automation shared by AZMSH members.
 
 **Open tools for the Arizona mesh**
 
@@ -99,15 +101,21 @@ Shared utilities and automation created by AZMSH members for operating and explo
 2. **Install Meshtastic.** Pair the radio with the official Android, iOS, or web app.
 3. **Meet the community.** [Join the AZMSH Discord](https://discord.gg/HrKtyuFEQk) for the current Arizona configuration and friendly setup help.
 4. **Configure your node.** Follow the [connection guide](https://azmsh.net/docs/how-to-connect.html) and [recommended settings](https://azmsh.net/docs/recommended-settings.html).
-5. **Say hello.** Send a message over the mesh, explore the [live network](https://view.azmsh.net), and find your neighbors.
+5. **Say hello.** Send a message over the mesh, take a look at [Sonoran](https://github.com/ArizonaMeshtasticCommunity/sonoran), and find your neighbors.
 
 <div align="center">
 
 ### `radio → neighbor → router → neighbor → destination`
 
-**Every well-placed node makes the network stronger.**
+**A well-placed node can help a lot of people around it.**
 
 </div>
+
+## 🏔️ Have a tower or high site?
+
+Height makes a huge difference for radio coverage. We would love to work with tower owners, building managers, and people who have access to rooftops or other elevated sites. A well-placed node can connect communities that would otherwise be out of range.
+
+If you have a possible site, read our [host a node guide](https://azmsh.net/docs/host-a-node.html) or come talk with us in [Discord](https://discord.gg/HrKtyuFEQk).
 
 ## 🗓️ Meet us on the air
 
@@ -120,24 +128,24 @@ You can also join the public **azmsh**, **Weather**, **Traffic**, and **Trivia**
 
 ## 🛠️ Build with us
 
-You do not need to be a radio expert to contribute. Useful contributions include:
+You do not need to be a radio expert or a developer to help. You can:
 
-- improving setup guides and educational material;
-- testing changes against real Arizona terrain and radio conditions;
-- reporting bugs with clear steps and screenshots;
-- writing Python, JavaScript, SQL, documentation, or deployment tooling;
-- sharing anonymized observations that help us understand coverage;
-- helping another person get their first node online.
+- improve a setup guide or presentation
+- test changes with real radios in Arizona
+- report a bug and tell us how to reproduce it
+- work on Python, JavaScript, SQL, documentation, or deployment tools
+- share observations that help us understand coverage
+- help somebody get their first node online
 
-Pick a project above, read its contribution notes, and open an issue or pull request. If you are unsure where to start, ask in [Discord](https://discord.gg/HrKtyuFEQk)—someone will point you in the right direction.
+Pick a project above and open an issue or pull request. If you are not sure where to start, ask in [Discord](https://discord.gg/HrKtyuFEQk). We will help you find something that fits.
 
 ---
 
 <div align="center">
 
-### 🌵 Build high. Test often. Share what you learn.
+### 🌵 See you on the mesh.
 
-[Website](https://azmsh.net) · [Discord](https://discord.gg/HrKtyuFEQk) · [Live network](https://view.azmsh.net) · [All repositories](https://github.com/orgs/ArizonaMeshtasticCommunity/repositories)
+[Website](https://azmsh.net) · [Discord](https://discord.gg/HrKtyuFEQk) · [Sonoran](https://github.com/ArizonaMeshtasticCommunity/sonoran) · [All repositories](https://github.com/orgs/ArizonaMeshtasticCommunity/repositories)
 
 *Meshtastic® is a registered trademark of Meshtastic LLC. AZMSH is an independent community group.*
 
